@@ -15,12 +15,39 @@
 
 .bg-army-man{
     background-image: url("../images/green-army-man.png");
-    background-size: 70%;
+    background-size: 60%;
     background-position-y: 100%;
-    background-position-x: 180%
+    background-position-x: 130%
 }
 
 .bg-blackboard{
     background-image: url("../images/blackboard.jpg");
 }
 
+.bg-network{
+    background-image: url("../images/network.jpeg");
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.set-padding-horizontal{
+    padding: 2rem 0;
+}
+
+.hide{
+    display: none;
+}
+
+.txt-xl{
+    font-size: 2rem;
+}
+
+.icon-l{
+    transform: scale(2);
+}
+
+span{
+    padding: 0 1.5rem;
+}

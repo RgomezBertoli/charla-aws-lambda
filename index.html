@@ -34,6 +34,7 @@
                     <li>
                         <img src="" alt="">
                         <h2>Carlos Martínez</h2>
+                        <p>Mobile Channel Servicios</p>
                     </li>
                     <li>
                         <div class="wrap">
@@ -71,9 +72,83 @@
                     </div>
                 </div>
             </section>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section>
+                <div class="wrap">
+                    <p>Es un sistema formal diseñado para la investigación de la definición de <b>función</b>, entendiendo la definición de funciones como la forma de expresar una función matemática. Fue introducido por <b>Alonzo Church</b> en los años 30. Es considerado el lenguaje universal de programación más pequeño.</p>
+                    <div class="slide-bottom content-center set-padding-horizontal">
+                        <h2>f(x,y) = x + y &emsp; (x,y) -> x + y</h2>               
+                        <h2>x -> (y -> x + y)</h2>               
+                    </div>
+                </div>
+            </section>
+            <section class="bg-black">
+                <span class="background dark bg-network"></span>
+                <div class="wrap">
+                    <div class="content-center">
+                        <h1>¿Qué es una arquitectura Serverless?</h1>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="wrap">
+                    <p>
+                        La idea bajo una arquitectura serverless es que tu puedas crear aplicaciones y te olvides de la administración de la infraestructura que va a soportar esa aplicación.
+                        De esta manera, el proveedor de los servicios será el encargado de gestionar toda la problematica: escalado, disponibilidad, actualizaciones, etc.
+                        Pero el uso de este tipo de arquitecturas tiene una serie de características que se deben tener en cuenta.
+                    </p>
+                    <ul class="flexblock">
+                        <li>
+                            <h2>
+                                <svg class="fa-credit-card icon-l"><use xlink:href="#fa-credit-card"></use></svg>
+                                <span class="txt-xl">Coste variable según uso</span>
+                            </h2>
+                            <p class="hide">
+                                Ya que no se paga por la infraestuctura, la forma de pago de estos servicios depende unicamente de la cantidad de uso de estos.
+                                En el caso de servicios de alojamiento de archivos, se pagará por la cantidad de accesos y el peso de tales archivos; en servicios de computación, se cobrara en función del tiempo de ejecución.
+                            </p>
+                        </li>
+                        <li>
+                            <h2>
+                                <svg class="fa-hdd-o icon-l"><use xlink:href="#fa-hdd-o"></use></svg>
+                                <span class="txt-xl">El código a ejecutar debe ser stateless</span>
+                            </h2>
+                            <p class="hide">
+                                Debido a que las instancias donde se va a ejecutar el código mueren tras cada ejecución, no se puede asegurar que si se guarda algún tipo de estado
+                                este se mantenga o exista para la siguiente ejecución. Por ello, si se necesita guardar algún tipo de estado se deberá usar un servicio de Storage.
+                            </p>
+                        </li>
+                        <li>
+                            <h2>
+                                <svg class="fa-clock-o icon-l"><use xlink:href="#fa-clock-o"></use></svg>
+                                <span class="txt-xl">La latencia depende del uso del servicio</span>
+                            </h2>
+                            <p class="hide">
+                                Si el servicio tiene una gran tasa de uso, la mayoría de proveedores tienen un sistema de "warm-start".
+                                Esto significa que se reusa el entorno de la anterior ejecución en vez de tener que levantar un nuevo entorno.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="content-center">
+                <h1>Tipos de Serverless</h1>
+                <ul class="flexblock specs">
+                    <li>
+                        <div>
+                            <svg class="fa-database"><use xlink:href="#fa-database"></use></svg>
+                            <h2>Backend as a Service (BaaS)</h2>
+                            <p>Firebase</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="static/images/logos/aws-lambda-function.svg">
+                            <h2>Function as a Service</h2>
+                            <p>AWS Lambda, Cloud Functions, Azure Functions</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
         </article>
     </main>
 
