@@ -28,6 +28,10 @@
     background-image: url("../images/network.jpeg");
 }
 
+.bg-clouds{
+    background-image: url("../images/cloud.jpg");
+}
+
 .txt-center{
     text-align: center;
 }
@@ -46,6 +50,11 @@
 
 .icon-l{
     transform: scale(2);
+}
+
+.img-s{
+    height: 7rem;
+    width: 7rem;
 }
 
 span{
